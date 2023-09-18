@@ -6,6 +6,12 @@ def valid_move(gameboard,columns):
             return -1
 
 def placement(gameboard, columns, playerturn, turnsplayed):
+    """
+    placement()
+
+    places piece on gameboard
+    
+    """
     playermove = int(input("Choose a column 0 through 7:"))
     Nigga = valid_move(gameboard,playermove)
     if Nigga != -1:
